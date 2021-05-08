@@ -24,7 +24,7 @@ So, I have consciously decided to leave trivial route of working as an IT profes
 
 - I am always in the 'panic-zone', meaning that have this constant urge to try out new things, be it ideas, restaurants or ice cream flavors.
 
-- I am not scared of taking risks. That is what brings me the courage to switch from a promising career, and step into Product Management.
+- I am not scared of taking risks. That is what brings me the courage to switch from an existing promising career in IT, and step into Product Management.
 
 # What I do for fun
 

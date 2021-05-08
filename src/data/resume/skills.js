@@ -4,47 +4,32 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    competency: 3,
+    category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'MS Excel',
+    competency: 5,
+    category: ['Tools', 'Data Analytics', 'Data Visualization', 'Product Management'],
+  },
+  {
+    title: 'Market Research',
+    competency: 3,
+    category: ['Product Management'],
   },
   {
     title: 'Node.JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
     competency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['Web Development', 'Languages'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
+    title: 'PostgreSQL/SQLite3/SQL/AzureSQL',
     competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
-    competency: 4,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
@@ -53,27 +38,7 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
+    title: 'Git',
     competency: 3,
     category: ['Tools'],
   },
@@ -83,44 +48,34 @@ const skills = [
     category: ['Tools', 'Data Engineering'],
   },
   {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
+    title: 'Google Cloud Platform',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Tools', 'Data Engineering'],
   },
   {
     title: 'Jupyter',
     competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Data Science', 'Python', 'Data Analytics'],
   },
   {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'HTML',
     competency: 3,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
-    competency: 5,
+    competency: 4,
     category: ['Languages', 'Python'],
+  },
+  {
+    title: 'Django',
+    competency: 3,
+    category: ['Web Development'],
+  },
+  {
+    title: 'Google Analytics',
+    competency: 3,
+    category: ['Tools', 'Data Analytics'],
   },
   {
     title: 'C++',
@@ -128,39 +83,34 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Julia',
+    title: 'Kotlin',
+    competency: 4,
+    category: ['Languages', 'Web Development'],
+  },
+  {
+    title: 'Figma',
+    competency: 3,
+    category: ['UX Design', 'Tools', 'Product Management'],
+  },
+  {
+    title: 'Sketch',
     competency: 2,
-    category: ['Languages'],
+    category: ['UX Design', 'Tools', 'Product Management'],
   },
   {
     title: 'MATLAB',
     competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
+    category: ['Tools'],
   },
   {
     title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    competency: 3,
+    category: ['Data Engineering', 'Data Science', 'Python', 'Data Analytics'],
   },
   {
     title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    competency: 2,
+    category: ['Data Engineering', 'Data Science', 'Python', 'Data Analytics'],
   },
   {
     title: 'Scikit-Learn',
@@ -173,25 +123,16 @@ const skills = [
     category: ['Data Engineering', 'Data Science'],
   },
   {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
+    title: 'MS Office',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Product Management'],
   },
+  {
+    title: 'MS Powerpoint',
+    competency: 4,
+    category: ['Product Management', 'Tools'],
+  },
+
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the

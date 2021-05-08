@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Birla Institute Of Technology and Science (BITS), Pilani',
+    degree: 'Bachelor of Engineering(Hons.) in Electrical and Electronics Engineering',
+    link: 'https://www.bits-pilani.ac.in/',
+    year: 2020,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Birla Institute Of Technology and Science (BITS), Pilani',
+    degree: ' Master of Science(Hons.) in Chemistry',
+    link: 'https://www.bits-pilani.ac.in/',
+    year: 2020,
   },
 ];
 

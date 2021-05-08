@@ -29,7 +29,6 @@ const Stats = () => {
 
   return (
     <div>
-      <h3>Some stats about this site</h3>
       <Table data={data} />
     </div>
   );

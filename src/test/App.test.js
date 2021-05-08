@@ -29,7 +29,7 @@ const pages = [
   },
   {
     route: '/projects',
-    heading: 'Projects',
+    heading: 'Product Decks',
     component: Projects,
   },
   {

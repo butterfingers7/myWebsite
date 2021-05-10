@@ -2,7 +2,7 @@ const routes = [
   {
     index: true,
     label: 'Aditi Pandey',
-    path: '/',
+    path: '/about',
   },
   {
     label: 'About',

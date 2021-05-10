@@ -13,6 +13,18 @@ const data = [
       + 'B2C sales',
   },
   {
+    title: 'Swiggy Meal Planner',
+    subtitle: '',
+    link: '/images/SwiggyMealPlanner.pdf',
+    image: '/images/projects/SwiggyMealPlanner.jpg',
+    date: '2020-11-02',
+    desc:
+      'Came up with a Product Deck for a full-fledged Food Assistant '
+      + 'for Swiggy that takes care of all food-related needs '
+      + 'of users. Aim is to make Swiggy an overall food experience'
+      + ', and not just another online food-ordering application.',
+  },
+  {
     title: 'LinkedIn Messenger App',
     subtitle: '',
     link: '/images/LinkedInMessengerMVP.pdf',

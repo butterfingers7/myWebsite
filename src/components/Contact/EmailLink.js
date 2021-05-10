@@ -9,7 +9,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'aditipandeygkp@gmaail.com',
+  'aditipandeygkp@gmail.com',
 ];
 
 const useInterval = (callback, delay) => {
